@@ -4,7 +4,7 @@
 #include "ringbuffer.h"
 #include <pthread.h>
 
-// Không dùng malloc: dùng mảng tĩnh tối đa 1024 (bạn có thể adjust)
+
 #define MAX_RB_SIZE 1024
 
 static int buffer[MAX_RB_SIZE];
